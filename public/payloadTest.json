@@ -1,0 +1,30 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "style": {
+    "flex": {
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "padding": {
+      "all": {
+        "value": 75,
+        "type": "REAL"
+      }
+    },
+    "backgroundColor": "#ff0000"
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "This is the container!",
+      "style": {
+        "margin": {
+          "top": {
+            "value": 30,
+            "type": "REAL"
+          }
+        }
+      }
+    }
+  ]
+}

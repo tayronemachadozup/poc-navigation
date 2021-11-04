@@ -1,0 +1,27 @@
+{
+  "_beagleComponent_": "beagle:button",
+  "text": "Click me!",
+  "onPress": [
+    {
+      "_beagleAction_": "beagle:pushView",
+      "route": {
+        "url": "/payloadTest.json",
+        "shouldPrefetch": true,
+        "fallback": {
+          "_beagleComponent_": "beagle:text",
+          "text": "Bad Request",
+          "alignment": "CENTER"
+        },
+        "httpAdditionalData": {
+          "method": "POST",
+          "headers": {
+            "test": "test"
+          },
+          "body": {
+            "framework": "Beagle"
+          }
+        }
+      }
+    }
+  ]
+}
